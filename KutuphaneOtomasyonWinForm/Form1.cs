@@ -16,5 +16,20 @@ namespace KutuphaneOtomasyonWinForm
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string gelenAd = adGiristxt.Text;
+            string gelenSifre = sifreGiristxt.Text;
+            if (gelenAd.Equals("admin") && gelenSifre.Equals("123"))
+                MessageBox.Show("başarılı");
+            else
+                MessageBox.Show("try again bitch");
+        }
     }
 }
