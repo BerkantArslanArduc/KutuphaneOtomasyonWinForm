@@ -31,9 +31,9 @@ namespace KutuphaneOtomasyonWinForm
                 güncelleKullanicibtn.Visible = false;
                 SilKullanicibtn.Visible = false;
             }
-            dataGridView1.Visible = true;
-            var kullanicilar = db.Kullanicilar.ToList();
-            dataGridView1.DataSource = kullanicilar.ToList();
+            KullaniciListeForm klisteForm = new KullaniciListeForm();
+            klisteForm.MdiParent = this;
+            klisteForm.Show();
         }
 
         private void IslemPaneli_Load(object sender, EventArgs e)
@@ -42,8 +42,7 @@ namespace KutuphaneOtomasyonWinForm
                    ekleKullanicibtn.Visible = false;
                    güncelleKullanicibtn.Visible = false;         
                    SilKullanicibtn.Visible = false;
-                   dataGridView1.Visible = false;
-
+                   
             
         }
     }

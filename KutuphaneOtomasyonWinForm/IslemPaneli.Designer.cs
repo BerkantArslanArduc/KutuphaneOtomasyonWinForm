@@ -36,9 +36,7 @@ namespace KutuphaneOtomasyonWinForm
             this.SilKullanicibtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.kullaniciBilgiPanel = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,27 +123,18 @@ namespace KutuphaneOtomasyonWinForm
             this.kullaniciBilgiPanel.Size = new System.Drawing.Size(1161, 67);
             this.kullaniciBilgiPanel.TabIndex = 1;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(307, 148);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(834, 362);
-            this.dataGridView1.TabIndex = 2;
-            // 
             // IslemPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 681);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.kullaniciBilgiPanel);
             this.Controls.Add(this.panel1);
+            this.IsMdiContainer = true;
             this.Name = "IslemPaneli";
             this.Text = "IslemPaneli";
             this.Load += new System.EventHandler(this.IslemPaneli_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -158,6 +147,5 @@ namespace KutuphaneOtomasyonWinForm
         private System.Windows.Forms.Panel kullaniciBilgiPanel;
         private System.Windows.Forms.Button güncelleKullanicibtn;
         private System.Windows.Forms.Button ekleKullanicibtn;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
