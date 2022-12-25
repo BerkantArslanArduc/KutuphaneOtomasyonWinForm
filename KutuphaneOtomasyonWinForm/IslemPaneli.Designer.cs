@@ -81,6 +81,7 @@ namespace KutuphaneOtomasyonWinForm
             this.ekleKullanicibtn.Text = "Ekle";
             this.ekleKullanicibtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ekleKullanicibtn.UseVisualStyleBackColor = false;
+            this.ekleKullanicibtn.Click += new System.EventHandler(this.ekleKullanicibtn_Click);
             // 
             // SilKullanicibtn
             // 

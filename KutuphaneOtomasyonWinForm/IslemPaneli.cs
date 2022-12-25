@@ -45,5 +45,12 @@ namespace KutuphaneOtomasyonWinForm
                    
             
         }
+
+        private void ekleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            KullaniciEkleForm ekleForm = new KullaniciEkleForm();
+            ekleForm.MdiParent = this;
+            ekleForm.Show();
+        }
     }
 }
