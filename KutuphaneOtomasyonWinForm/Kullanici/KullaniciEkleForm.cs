@@ -37,11 +37,11 @@ namespace KutuphaneOtomasyonWinForm
             kullanicilar.kullanici_tel = kullaniciTeltxt.Text;
             kullanicilar.kullanici_mail = kullaniciMailtxt.Text;
             kullanicilar.kullanici_ceza1 = Convert.ToDouble(kullaniciCezatxt.Text);
-            if (radioE.Checked == true)
+            if (radioE.Checked=true)
             {
                 kullanicilar.kullanici_cinsiyet = "Erkek";
             }
-            else if (radioK.Checked == false)
+            else if (radioK.Checked=false)
             {
                 kullanicilar.kullanici_cinsiyet = "Kadın";
             }

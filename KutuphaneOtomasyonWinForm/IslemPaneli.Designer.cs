@@ -97,6 +97,7 @@ namespace KutuphaneOtomasyonWinForm
             this.SilKullanicibtn.TabIndex = 1;
             this.SilKullanicibtn.Text = "                                               Sil";
             this.SilKullanicibtn.UseVisualStyleBackColor = false;
+            this.SilKullanicibtn.Click += new System.EventHandler(this.SilKullanicibtn_Click);
             // 
             // button1
             // 

@@ -199,7 +199,7 @@ namespace KutuphaneOtomasyonWinForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(214)))), ((int)(((byte)(242)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(222)))), ((int)(((byte)(238)))));
             this.ClientSize = new System.Drawing.Size(1021, 522);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
